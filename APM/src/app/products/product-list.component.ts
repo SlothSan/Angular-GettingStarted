@@ -22,7 +22,7 @@ export class ProductListComponent implements OnInit {
 
   set listFilter(value: string) {
     this._listFilter = value;
-    console.log('In setter:', value);
+    // console.log('In setter:', value);
     this.filteredProducts = this.performFilter(value);
   }
 
