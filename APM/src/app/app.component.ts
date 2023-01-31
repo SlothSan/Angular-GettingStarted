@@ -15,6 +15,5 @@ import { Component } from '@angular/core';
   </div>`,
 })
 export class AppComponent {
-
   pageTitle: string = 'Mikes Acme Product Management';
 }
